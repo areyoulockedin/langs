@@ -5,8 +5,8 @@ from collections import defaultdict # Useful for grouping extensions by language
 
 # --- Configuration ---
 DEFAULT_YAML_FILE = 'languages.yml'
-DEFAULT_LANG_TYPE_OUTPUT_FILE = './lang.d.ts' # Example paths
-DEFAULT_EXTENSION_MAP_OUTPUT_FILE = './extension-map.ts' # Example paths
+DEFAULT_LANG_TYPE_OUTPUT_FILE = 'gen/lang.d.ts' # Example paths
+DEFAULT_EXTENSION_MAP_OUTPUT_FILE = 'gen/extension-map.ts' # Example paths
 DEFAULT_MARKDOWN_OUTPUT_FILE = './README.md' # Markdown output file
 # Assuming FileType is defined in this path relative to extensionMap.ts
 # Adjust if your 'FileType' lives elsewhere or if you want to use the generated 'Language' type
